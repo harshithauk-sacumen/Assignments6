@@ -1,0 +1,55 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+   /* background-image: url("https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879__340.jpg");*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* form starts */
+
+.form
+{
+    background-color: rgba(250, 215, 224, 0.4);
+    width: 350px;
+    padding: 40px;
+    position: relative;
+    left: 30%;
+    border: 5px groove purple;
+    border-radius:10px;
+    box-shadow: 4px 4px 3px red;
+}
+
+.names input
+{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(250, 229, 215, 0.4);
+}
+
+.pass input
+{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(215, 221, 250, 0.4);
+}
+
+textarea
+{
+    margin-bottom: 10px;
+    background-color: rgba(250, 223, 215, 0.4);
+}
+
+.gender,.terms,.btns
+{
+    margin-bottom: 10px;
+}
+
+input::placeholder,textarea::placeholder
+{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* form ends */
